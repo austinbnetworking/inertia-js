@@ -1,14 +1,13 @@
 <script setup>
-import Nav from "../Shared/Nav.vue"
+import Layout from "../Shared/Layout.vue"
 
 defineProps({
-    name: String,
-    components: { Nav },
+    components: { Layout }
 })
 </script>
 
 <template>
-    <h1 class="text-3xl font-bold underline">Hey there, {{ name }}</h1>
-
-    <Nav></Nav>
+    <Layout>
+        <h2 class="text-2xl font-bold">Home Page</h2>
+    </Layout>
 </template>

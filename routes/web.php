@@ -35,7 +35,9 @@ Route::get('/welcome-non-script', function () {
 });
 
 Route::get('/users', function () {
-    return Inertia::render('Users');
+    return Inertia::render('Users', [
+        'time' => now()->toTimeString(),
+    ]);
 });
 
 Route::get('/settings', function () {

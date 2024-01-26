@@ -35,6 +35,6 @@ Note about Vue:
 Note about Tailwind:
 - Installation for Laravel is listed here - https://tailwindcss.com/docs/guides/laravel
 
-Left off at Ep. 7 - https://laracasts.com/series/build-modern-laravel-apps-using-inertia-js/episodes/7
+Left off at Ep. 12 - https://laracasts.com/series/build-modern-laravel-apps-using-inertia-js/episodes/7
 
 Next up: https://laracasts.com/series/learn-vue-3-step-by-step

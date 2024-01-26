@@ -1,13 +1,13 @@
 <script setup>
-import Nav from "../Shared/Nav.vue"
+import Layout from "../Shared/Layout.vue"
 
 defineProps({
-    components: { Nav },
+    components: { Layout }
 })
 </script>
 
 <template>
-    <h1>Settings</h1>
-
-    <Nav></Nav>
+    <Layout>
+        <h2 class="text-2xl font-bold">Settings</h2>
+    </Layout>
 </template>

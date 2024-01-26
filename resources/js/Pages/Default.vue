@@ -2,5 +2,4 @@
 defineProps({})
 </script>
 
-<template>
-</template>
+<template></template>
